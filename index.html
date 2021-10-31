@@ -189,7 +189,18 @@
                 text-align: center;
             }
             #imagem-principal {
+                margin-top: -10px;
+            }
+            .top {
+                margin-left: 15px;
+                margin-top: 10px;
+                position: fixed;
+                text-decoration: none;
+            }
+            @media (min-width: 576px) {
+                #imagem-principal {
                 margin-top: -30px;
+            }
             }
         </style>
     </head>
@@ -231,6 +242,8 @@
             </div>
         </nav>
         <div class="container-fluid"><img class="abre" src="imagem/jumbotron1.gif" id="imagem-principal" alt=""></div>
+        <a href="#topo" class="top primary-color"><i class="bi bi-arrow-up-circle-fill"></i></a>
+        
         <!-- título -->
         <div class="text-center" id="titulo">
             <section class="page-section bg-light" id="Inicio">
