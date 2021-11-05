@@ -197,16 +197,20 @@
                 position: fixed;
                 text-decoration: none;
             }
-            @media (min-width: 576px) {
+            #imagem-principal {
+                margin-top: 53px;
+            }
+
+            @media (min-width: 769px) {
                 #imagem-principal {
-                margin-top: -30px;
+                margin-top: 60px;
             }
             }
         </style>
     </head>
     <body id="topo" >
         <!--nav-->
-        <nav class="navbar navbar-expand-lg bg-primary-color" id="navbar">
+        <nav class="navbar navbar-expand-lg fixed-top bg-primary-color" id="navbar">
             <div class="container py3">
             <a class="navbar-brand" href="#topo"><img src="imagem/logo base DM_final quadrado.png" alt=""></a>
             <button class="navbar-toggler" type="button" 
@@ -242,8 +246,6 @@
             </div>
         </nav>
         <div class="container-fluid"><img class="abre" src="imagem/jumbotron1.gif" id="imagem-principal" alt=""></div>
-        <a href="#topo" class="top primary-color"><i class="bi bi-arrow-up-circle-fill"></i></a>
-        
         <!-- título -->
         <div class="text-center" id="titulo">
             <section class="page-section bg-light" id="Inicio">
