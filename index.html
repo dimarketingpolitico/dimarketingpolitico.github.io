@@ -17,8 +17,9 @@
         <!--css-->
         <link rel="stylesheet" href="css/styles.css">
         <!--javaScript-->
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous" defer></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+        <!--icones-->
         <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-N4VTBKVKHX"></script>
         <script>
@@ -109,7 +110,9 @@
             }
             #pesquisa p {
                 margin-top: 20px;
-           
+            }
+            #titulo {
+                margin-top: 6em;
             }
             /*marketing*/
             #marketing {
@@ -204,7 +207,7 @@
             }
             .card {
                 margin-bottom: 20px;
-                border-bottom: 2x solid #6d6b69
+                border-bottom: 2x solid #5c5649
             }
             .redes {
                 background-color: #5c5649;
@@ -258,6 +261,32 @@
             .final h6 {
                 font-size: 12px;
             }
+            .chalk {
+                background-color: #5c5649;
+                margin-top: 5em;
+                padding-top: 10px;
+            }
+            /*carousel*/
+            #slider .visually {
+                color: #5c5649;
+                font-size: 0.8em;
+                text-shadow: black 1px 1px;
+                margin: 1px;
+                margin-top: 3em;
+            }
+            #slider {
+                padding-top: 20px;
+                padding-bottom: 40px;
+            }
+            .carousel-indicators .active {
+                background-color: black;
+            }
+            .carousel-indicators {
+                color: #5c5649;
+            }
+            .carousel-indicators .button {
+                color: #857f72;
+            }
             /*break-points*/
            /*marketing*/
            @media (min-width: 768px) {
@@ -287,6 +316,11 @@
                 text-align: center;
                 border-left: 3px solid #ffc17d;
             }
+            .chalk {
+                background-color: #5c5649;
+                margin-top: 5em;
+                padding-top: 10px;
+            }
             }
             /*contato*/
             @media (min-width: 1024px) {
@@ -312,6 +346,11 @@
                 color: rgb(0, 0, 0);
                 font-weight: 900;
             }
+            .chalk {
+                background-color: #5c5649;
+                margin-top: 5em;
+                padding-top: 10px;
+            }
             }
             @media (min-width: 1440px) {
             #contato {
@@ -332,6 +371,83 @@
             #navbar {
                 font-size: 18px;
             }
+            .chalk {
+                background-color: #5c5649;
+                margin-top: 5em;
+                padding-top: 10px;
+            }
+            
+            }
+            /* slider */
+            #slider {
+                margin-top: 1.5em;
+                margin-bottom: 1em;
+            }
+            #slider .carousel-caption {
+                bottom: 1em;
+            }
+            #slider .carousel-caption h5 {
+                font-family: 'Oleo Script Swash Caps', cursive;
+                font-size: 2em;
+                text-shadow: black 1px 1px;
+            }
+            #slider .visually {
+                font-size: 0.8em;
+                text-shadow: black 1px 1px;
+                color: black;
+                margin: 1px;
+                margin-top: -12em;
+                background-color: rgb(155, 152, 152);
+                border-radius: 55px;
+                padding: 10px;
+            }
+            .numbertext p {
+                font-size: 14px;
+                margin-top: 50px;
+                background-color: #ffc17d;
+                padding-top: 30px;
+                padding-bottom: 40px;
+                padding-left: 3px;
+            }
+            .texto-slider p {
+                margin-top: 10px;
+            }
+            /*break-point*/
+            @media (min-width: 1300px) {
+                #slider .visually {
+                font-size: 1.8em;
+                text-shadow: black 1px 1px;
+                color: black;
+                margin: 1px;
+                margin-top: 3em;
+                background-color: rgb(155, 152, 152);
+                border-radius: 55px;
+                padding: 10px;
+            }
+            .numbertext p {
+                font-size: 20px;
+                padding: 20px;
+                margin-top: 10px;
+                background-color: #ffc17d;
+            }
+            }
+            @media (min-width: 768px) {
+                .numbertext p {
+                font-size: 18px;
+                margin-top: 15px;
+                background-color: #ffc17d;
+                padding: 25px;
+       
+            } 
+            }
+            @media (min-width: 1024px) {
+                .numbertext p {
+                font-size: 18px;
+                margin-top: 15px;
+                background-color: #ffc17d;
+                padding: 15px;
+       
+            } 
             }
         </style>
     </head>
@@ -354,10 +470,13 @@
                     <a class="nav-link primary-color" href="#secao-001"><i class="bi bi-people-fill"></i> - Consultoria</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link primary-color" href="#secao-005"><i class="bi bi-diagram-3"></i> - Links</a>
+                    <a class="nav-link primary-color" href="#secao-000"><i class="bi bi-bullseye"></i> - Marketing</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link primary-color" href="#secao-002"><i class="bi bi-bullseye"></i> - Marketing</a>
+                    <a class="nav-link primary-color" href="#secao-005"><i class="bi bi-diagram-3"></i> - Mix</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link primary-color" href="#secao-002"><i class="bi bi-bullseye"></i> - Pesquisa</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link primary-color" href="#secao-003"><i class="bi bi-yin-yang"></i> - Comportamento</a>
@@ -380,7 +499,7 @@
         <div class="clean" id="secao-001"></div>
         <!-- título apresentação-->
         <div class="ini" id="inicio">
-            <h2 class="text-uppercase primary-color">Criação | Redator Freelancer</h2>
+           <h2 class="text-uppercase primary-color">Criação | Redator Freelancer</h2>
             <h1 class="text-uppercase primary-color">Marketing Político | Consultoria</h1>
         </div>
         
@@ -388,7 +507,7 @@
         <div class="container" id="apresentação">
             <div class="row">
                 <div class="col-12 col-xl-6">
-                    <p><img src="img/foto-dids.jpg" width="100%" alt=""></p>
+                    <img src="img/foto-dids.jpg" width="100%" alt="">
                 </div>
                 <div class="col-12 col-xl-6 secondary-color"><p class="candidaturas">Candidaturas são, na maioria das 
                     vezes, sonhos. Começam no campo pessoal, mas para avançar precisam ter engajamento coletivo. Ninguém 
@@ -407,28 +526,104 @@
                     A diferença entre quem é reeleito sucessivas vezes e quem é derrotado está em entender a 
                     proporcionalidade do voto. <b>Quem faz 50 pode conseguir 5, 10, 50, 100, 200 mil...</b> O céu é o 
                     limite. A relação nesta escala reside em saber vender aquilo que o eleitor quer. 
-                    Pensa em ser candidato? <b>não deixe para a última hora.</b></p>
+                    Pensa em ser candidato? <b>Estou por aqui e posso te ajudar.</b></p>
                 </div>
             </div>  
         </div>
+        <!--mktpol-->
+        <div class="clean" id="secao-000"></div>
+        <div class="container" id="visao">
+            <h2 class="text-uppercase text-center primary-color">Conceitos | Ideias</h2>
+            <h1 class="text-uppercase text-center primary-color">Marketing | Teoria</h1>  
+        </div>
+        <!--slider-->
+        <div class="container" id="slider-container">
+            <div class="row justify-content-center">
+                <div class="col-12 col col-lg-7">
+                    <div class="carousel slide" id="slider" data-bs-touch="false" data-bs-interval="false">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="https://media.istockphoto.com/photos/group-of-people-on-the-street-picture-id1251109258?b=1&k=20&m=1251109258&s=170667a&w=0&h=x4f0A0CSd51EDIvLtYEMarSUntl5mD05ZH7bYzsFDRM=" class="d-block w-100" alt="...">
+                                <div class="row">
+                                    <div class="col-2">
+                                      <div class="numbertext primary-color">
+                                        <p> 1 / 3</p>
+                                      </div>
+                                    </div>
+                                    <div class="col-10 texto-slider primary-color">
+                                      <p>O <b>Marketing</b> é determinado por padrões estabelecidos na sociedade. Duas coisas que ajudam a levar as pessoas às urnas. A raiva e o medo.
+                                        Nas redes a maioria está pouco interessada em saber se é fato ou boato. É conveniente acreditar em qualquer coisa. A verossimilhança substitui a verdade.
+                                        Ser eleito significa saber aquilo que acontece a nossa volta.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://cdn.pixabay.com/photo/2016/12/19/08/39/mobile-phone-1917737__340.jpg" class="d-block w-100" alt="...">
+                                <div class="row">
+                                    <div class="col-2">
+                                      <div class="numbertext primary-color">
+                                        <p> 2 / 3</p>
+                                      </div>
+                                    </div>
+                                    <div class="col-10 texto-slider primary-color">
+                                      <p>Hoje a maioria de nós só lê aquilo que reforça a auto crença. Vivemos em uma era em que desejamos prender a atenção dos outros com espetáculo de si mesmo.
+                                        As pessoas hoje estão divididas em grandes bolhas, de interesse compartilhado, mas que espelham apenas seus desejos.
+                                        A <b>Democracia</b> corre risco porque estamos querendo transformar nossas vontades em lei.
+                                        </p>
+                                    </div>
+                                  </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://cdn.pixabay.com/photo/2020/04/30/18/09/hands-5113990_960_720.jpg" class="d-block w-100" alt="...">
+                                <div class="row">
+                                    <div class="col-2">
+                                      <div class="numbertext primary-color">
+                                        <p> 3 / 3</p>
+                                      </div>
+                                    </div>
+                                    <div class="col-10 texto-slider primary-color">
+                                      <p>O voto não é seu e sim da corrente que se consegue formar ao longo de um processo de <b>Marketing</b>.
+                                        O Trabalho de <b>Marketing</b> é comparar, entender, perceber como está a estrutura e fazer com que ela possa ser adequada àquilo que é desejado.
+                                        Na era da informação, sem um discurso claro o eleitor não reconhece mais o candidato.
+                                        Temos de converter candidaturas em conhecimento.
+                                        </p>
+                                    </div>
+                                  </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" 
+                            type="button" data-bs-target="#slider" 
+                            data-bs-slide="prev">
+                            <span class="visually hidden">|<</span>
+                        </button>
+                            <button class="carousel-control-next" 
+                            type="button" data-bs-target="#slider" 
+                            data-bs-slide="next">
+                            <span class="visually hidden">>|</span>
+                        </button>
+                    </div>
+                </div>
+            </div>        
+        </div>       
         <div class="clean" id="secao-005"></div>
         <!--visao-->
         <div class="container" id="visao">
-            <h1 class="text-uppercase text-center primary-color">Partimos daqui</h1>   
+            <h2 class="text-uppercase text-center primary-color">Ideia | Contato</h2>
+            <h1 class="text-uppercase text-center primary-color">Análise | Projeto</h1>   
         </div>
         <!--box-->
         <div class="container" id="box">
             <div class="row">
-                <div class="col-12 col-sm-3 box">
+                <div class="col-12 col-lg-3 box">
                     <i class="fas fa-chalkboard-teacher primary-color"></i>
                     <h4 class="text-uppercase primary-color">Produto</h4>
-                    <p class="secondary-color">É preciso conhecer o "produto". Este é o ponto de partida. Pensar em 
-                        você é a principal missão. Visão de mundo e atuação nos meios vão determinar o tamanho da 
+                    <p class="secondary-color">É preciso conhecer o "produto". Este é o ponto de partida de meu trabalho. 
+                        Pensar em você é a principal missão. Visão de mundo e atuação nos meios vão determinar o tamanho da 
                         tarefa. Conhecer o mercado e a presença social são fatores determinantes para quem pretende 
                         ser candidato.
                     </p>
                 </div>
-                <div class="col-12 col-sm-3 box">
+                <div class="col-12 col-lg-3 box">
                     <i class="fab fa-codepen primary-color"></i>
                     <h4 class="text-uppercase primary-color">Valor</h4>
                     <p class="secondary-color">Para convencer alguém a votar em você é preciso estabelecer noção de valor. 
@@ -436,15 +631,15 @@
                         envolvido na troca. Colocar uma ideia na cabeça das pessoas é a ponte para se ter percepção.
                     </p>
                 </div>
-                <div class="col-12 col-sm-3 box">
+                <div class="col-12 col-lg-3 box">
                     <i class="far fa-eye primary-color"></i>
                     <h4 class="text-uppercase primary-color">Visão</h4>
                     <p class="secondary-color">Todo político precisa entender que para ser competitivo no mundo digital é 
                         preciso estar na cabeça das pessoas. Pertencer ao seu cotidiano. Para isso, planejamento, mudança de 
-                        atitudes e comunicação são fundamentais para se obter sucesso.
+                        atitudes, equipe e comunicação são fundamentais para se obter sucesso.
                     </p>
                 </div>
-                <div class="col-12 col-sm-3 box">
+                <div class="col-12 col-lg-3 box">
                     <i class="fas fa-search-location primary-color"></i>
                     <h4 class="text-uppercase primary-color">Mercado</h4>
                     <p class="secondary-color">O mercado é desigual. Enquanto você “pensa” em ser candidato, os que estão 
@@ -456,8 +651,11 @@
         </div>
         <div class="clean" id="secao-002"></div>
         <!--pesquisa-->
-        <div class="container" id="pesquisa">
-            <h1 class="text-uppercase primary-color">Pesquisar para fazer marketing</h1>
+        <div class="container" id="titulo">
+            <h2 class="text-uppercase text-center primary-color">Dados | Informação</h2>
+            <h1 class="text-uppercase text-center primary-color">Pesquisa | Criação</h1>
+        </div>    
+        <div class="container" id="pesquisa">    
             <div class="row">
                 <div class="col-12 col-xl-6">
                     <p class="secondary-color">A pesquisa é um dos instrumentos mais eficientes do marketing. 
