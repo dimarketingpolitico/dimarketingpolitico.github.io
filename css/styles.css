@@ -1,0 +1,436 @@
+@charset "UTF-8";
+.background-img {
+    background-image: url(../imagens/img-principal-ovo.png);
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center;
+}
+.nome {
+    letter-spacing: 3px;
+    text-align: center;
+    top: 115px;
+    position: relative;
+}
+.funcao {
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    text-align: center;
+    top: 105px;
+    position: relative;
+}
+.funcao h2 {
+    font-size: 12px;
+}
+.redes-sociais {
+    position: relative;
+    text-align: center;
+    top: 430px;
+    letter-spacing: 10px;
+}
+.fa-user, .fa-twitter, .fa-sms, .fa-envelope-open, .fa-blogger-b, .fa-map-marker-alt, .fa-skype  {
+    font-size: 18px;
+    text-align: center;
+}
+.porta {
+    position: relative;
+    text-align: center;
+    top: 20px;
+    font-size: 30px;
+}
+/*site-container*/
+/*font family*/
+body {
+    font-family: 'Roboto Slab', serif;
+}
+/*paleta de cores*/
+.primary-color {
+    color: #5c5649;
+}
+.secondary-color {
+    color:#857f72;
+}
+.third-color {
+    color: #fff;
+}
+.bg-primary-color {
+    background-color: #fcf4eb
+}
+.bg-secondary-color {
+    background-color: #ffc17d;
+}
+/* nav */
+#navbar img {
+    width: 60px;
+}
+#navbar {
+    border-bottom: 2px solid rgb(32, 32, 32);
+}
+#navbar a:hover {
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+}
+#navbar .active {
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+.navbar-brand {
+    display: flex;
+
+}
+.navbar-brand img {
+    width: 60px;
+}
+#navbar-items .navbar-nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-left: 10px;
+    line-height: 1px;
+}
+#navbar-items .nav-items {
+    margin: 0 1em;
+}
+/*imagem principal */
+#imagem-principal {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-top: 100px;
+}
+/*título apresentação*/
+#inicio h1, h2 {
+    text-align: center;
+}
+#inicio {
+    margin-top: 8em;
+}
+/*texto apresentação*/
+#apresentação {
+    margin-top: 3em;
+}
+.candidaturas {
+    margin-top: 1px;
+}
+/*pesquisa*/
+#pesquisa h1 {
+    margin-top: 4em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+#pesquisa p {
+    margin-top: 20px;
+}
+#titulo {
+    margin-top: 6em;
+}
+/*marketing*/
+#marketing {
+    margin-top: 8em;
+    background-color: #fcf4eb;
+}
+#marketing h1 {
+    text-align: center;
+}
+#aspa p {
+    font-size: 50px;
+    margin-top: -96px;
+    line-height: 41px;
+}
+.fa-angle-double-left {
+    font-size: 200px;
+    color: rgb(211, 206, 206);
+}
+.fa-angle-double-right{
+    font-size: 16;
+    color: rgb(187, 184, 184);
+}
+/*visao*/
+#visao {
+    margin-top: 8em;
+}
+/*box*/
+.fa-chalkboard-teacher {
+    font-size: 100px;
+    margin-bottom: 20px;
+    margin-top: 0.7em;
+}
+.box {
+    text-align: center;
+}
+.fa-codepen {
+    font-size: 100px;
+    margin-bottom: 20px;
+    margin-top: 0.7em;
+}
+.fa-eye {
+    font-size: 100px;
+    margin-bottom: 20px;
+    margin-top: 0.7em;
+}
+.fa-search-location {
+    font-size: 100px;
+    margin-bottom: 20px;
+    margin-top: 0.7em;
+}
+.fa-eye {
+    font-size: 100px;
+    margin-bottom: 20px;
+    margin-top: 0.7em; 
+}
+/* consultoria */
+.consultoria {
+    margin-top: 8em;
+}
+.consultoria p {
+    margin-bottom: 1em;
+}
+#numeros {
+    margin-top: 0.2em;
+    background-color: #5c5649;
+}
+#numeros .col{
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.linha-2 {
+    border-bottom: 2px solid #fff;
+}
+.consultoria img {
+    width: 60px;
+}
+.consultoria h2 {
+    margin-bottom: 1.9em;
+}
+#numeros .img{
+    margin-left: auto;
+    margin-right: auto;
+}
+#numeros .col-12 {
+    text-align: center;
+}
+/*contato*/
+#contato {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.redes {
+    background-color: #5c5649;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-top: 8em;
+}
+.redes .row {
+    align-items: center;
+}
+#contato p {
+font-size: 18px;
+}
+/*publicações*/
+.publicações {
+    margin-top: 8em;
+}
+#publica {
+    padding: 20px;
+}
+#publica h3 {
+    margin-top: 1em;
+    margin-bottom: 0.7em;
+}
+#publica h6 {
+    font-size: 12px;
+    color: #5c5649;
+}
+#publica a {
+    text-decoration: none;
+    color: #5c5649;
+}
+/*rodape*/
+.final {
+    padding: 15px;
+    margin-top: 20px;
+}
+.final h6 {
+    font-size: 12px;
+}
+.chalk {
+    background-color: #5c5649;
+    margin-top: 5em;
+    padding-top: 10px;
+}
+/*carousel*/
+#slider .visually {
+    color: #5c5649;
+    font-size: 0.8em;
+    text-shadow: black 1px 1px;
+    margin: 1px;
+    margin-top: 3em;
+}
+#slider {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.carousel-indicators .active {
+    background-color: black;
+}
+.carousel-indicators {
+    color: #5c5649;
+}
+.carousel-indicators .button {
+    color: #857f72;
+}
+/*break-points*/
+/*marketing*/
+@media (min-width: 768px) {
+#marketing h1 {
+    text-align: center;
+    padding-top: 20px;
+}
+.marketing {
+    margin-left: 100px;
+    margin-right: 20px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+/*contato*/
+#contato {
+    padding-left: 1%;
+    padding-right: 1%;
+}
+#contato p {
+font-size: 10px;
+}
+.chalk {
+    background-color: #5c5649;
+    margin-top: 5em;
+    padding-top: 10px;
+}
+}
+/*contato*/
+@media (min-width: 1024px) {
+#contato {
+    padding-left: 1%;
+    padding-right: 1%;
+}
+#contato p {
+font-size: 12px;
+}
+#navbar {
+    font-size: 14px;
+}
+#navbar a:hover {
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+}
+.chalk {
+    background-color: #5c5649;
+    margin-top: 5em;
+    padding-top: 10px;
+}
+}
+@media (min-width: 1440px) {
+#contato {
+    padding-left: 1%;
+    padding-right: 1%;
+}
+#contato p {
+font-size: 18px;
+}
+#navbar {
+    font-size: 18px;
+}
+.chalk {
+    background-color: #5c5649;
+    margin-top: 5em;
+    padding-top: 10px;
+}
+}
+/* slider */
+#slider {
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+}
+#slider .carousel-caption {
+    bottom: 1em;
+}
+#slider .carousel-caption h5 {
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-size: 2em;
+    text-shadow: black 1px 1px;
+}
+#slider .visually {
+    font-size: 0.8em;
+    text-shadow: black 1px 1px;
+    color: black;
+    margin: 1px;
+    margin-top: -12em;
+    background-color: rgb(155, 152, 152);
+    border-radius: 55px;
+    padding: 10px;
+}
+.numbertext p {
+    font-size: 14px;
+    margin-top: 50px;
+    background-color: #ffc17d;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    padding-left: 3px;
+}
+.texto-slider p {
+    margin-top: 10px;
+}
+/*break-point*/
+@media (min-width: 1300px) {
+    #slider .visually {
+    font-size: 1.8em;
+    text-shadow: black 1px 1px;
+    color: black;
+    margin: 1px;
+    margin-top: 3em;
+    background-color: rgb(155, 152, 152);
+    border-radius: 55px;
+    padding: 10px;
+}
+.numbertext p {
+    font-size: 20px;
+    padding: 20px;
+    margin-top: 10px;
+    background-color: #ffc17d;
+}
+/*contato*/
+.curri-01 {
+    margin-left: 5em;
+}
+.curri-00 {
+    margin-top: 5em;
+}
+.curri-02 {
+    margin-left: 1em;
+}
+}
+@media (min-width: 768px) {
+    .numbertext p {
+    font-size: 18px;
+    margin-top: 15px;
+    background-color: #ffc17d;
+    padding: 25px;
+
+} 
+}
+@media (min-width: 1024px) {
+    .numbertext p {
+    font-size: 18px;
+    margin-top: 15px;
+    background-color: #ffc17d;
+    padding: 15px;
+} 
+}
+            
+      
+
