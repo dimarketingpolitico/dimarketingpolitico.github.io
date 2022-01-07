@@ -146,38 +146,29 @@ body {
     font-size: 16;
     color: rgb(187, 184, 184);
 }
-/*visao*/
-#visao {
-    margin-top: 8em;
-}
 /*box*/
 .fa-chalkboard-teacher {
-    font-size: 100px;
-    margin-bottom: 20px;
-    margin-top: 0.7em;
+    font-size: 50px;
+    margin-bottom: 10px;
+    margin-top: 0.1em;
 }
 .box {
     text-align: center;
 }
 .fa-codepen {
-    font-size: 100px;
-    margin-bottom: 20px;
-    margin-top: 0.7em;
+    font-size: 50px;
+    margin-bottom: 10px;
+    margin-top: 0.1em;
 }
 .fa-eye {
-    font-size: 100px;
-    margin-bottom: 20px;
-    margin-top: 0.7em;
+    font-size: 50px;
+    margin-bottom: 10px;
+    margin-top: 0.1em;
 }
 .fa-search-location {
-    font-size: 100px;
-    margin-bottom: 20px;
-    margin-top: 0.7em;
-}
-.fa-eye {
-    font-size: 100px;
-    margin-bottom: 20px;
-    margin-top: 0.7em; 
+    font-size: 50px;
+    margin-bottom: 10px;
+    margin-top: 0.1em;
 }
 /* consultoria */
 .consultoria {
@@ -239,6 +230,16 @@ font-size: 18px;
 #publica {
     padding: 20px;
 }
+.p-3 {
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    margin-top: 25px;
+    background-color: rgba(138, 121, 86, 0.2);
+    padding: 15px;
+}
+.p-3 img {
+    border-radius: 5px;   
+}
 #publica h3 {
     margin-top: 1em;
     margin-bottom: 0.7em;
@@ -284,6 +285,16 @@ font-size: 18px;
 }
 .carousel-indicators .button {
     color: #857f72;
+}
+.sliders {
+    margin-top: 7em;
+    margin-bottom: 7em;
+    padding-top: 40px;
+    background-image: url(../imagens/marca-dagua.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
 }
 /*break-points*/
 /*marketing*/
@@ -334,6 +345,7 @@ font-size: 12px;
     padding-top: 10px;
 }
 }
+
 @media (min-width: 1440px) {
 #contato {
     padding-left: 1%;
@@ -431,6 +443,3 @@ font-size: 18px;
     padding: 15px;
 } 
 }
-            
-      
-
