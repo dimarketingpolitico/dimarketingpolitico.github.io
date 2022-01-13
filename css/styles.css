@@ -274,8 +274,9 @@ font-size: 18px;
     color: #fff;
     text-decoration: none;
     cursor: pointer;
+    text-shadow: rgb(88, 88, 88) 0.1em 0.1em 0.2em;
 }
-#map-site a {
+#map-site a, .fas {
     color:#fff;
     text-decoration: none;
     text-shadow: black 0.1em 0.1em 0.2em;
@@ -293,7 +294,45 @@ font-size: 18px;
     color: #fff;
     text-shadow: black 0.1em 0.1em 0.2em;
 }
-#formas a {
+#mob a {
+    color: #fff;
+    font-size: 40px;
+    text-decoration: none;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+#lig p {
+    margin-top: 20px;
+    color: #fff;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    line-height: 3px;
+}
+#sms a {
+    color: #fff;
+    font-size: 40px;
+    text-decoration: none;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+#texto p {
+    margin-top: 20px;
+    color: #fff;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    line-height: 3px;
+}
+#envelope a {
+    color: #fff;
+    font-size: 40px;
+    text-decoration: none;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+#recado p {
+    margin-top: 20px;
+    color: #fff;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    line-height: 3px;
+}
+#icons-marketing i {
+    color: #fff;
+    font-size: 40px;
     text-decoration: none;
     text-shadow: black 0.1em 0.1em 0.2em;
 }
@@ -336,12 +375,16 @@ font-size: 18px;
     line-height: 32px;
 }
 #footer-botton {
-    border-top: 2px solid #7a7a7a;
-    
+    border-top: 3px solid #fff;
     background-color: rgb(10, 10, 10, 0.4);
 }
 #footer-botton p {
     color: #fff;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    margin-top: 1em;
+}
+#footer-botton i {
+    color: rgb(243, 6, 6);
     text-shadow: black 0.1em 0.1em 0.2em;
 }
 #secao-004 {
@@ -531,7 +574,7 @@ font-size: 18px;
 } 
 }
 /*footer*/
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
    #formas {
        padding: 2em;
    }
@@ -540,9 +583,9 @@ font-size: 18px;
 }
     #map-site {
     padding: .2em;
-    border-right: 2px solid #7a7a7a;
+    border-right: 3px solid #fff;
 }
     #links-container {
-        border-left: 2px solid #7a7a7a;
+        border-left: 3px solid #fff;
     }
     }
