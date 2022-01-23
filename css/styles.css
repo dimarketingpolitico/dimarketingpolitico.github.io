@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/*arquivo-index*/
 .background-img {
     background-image: url(../imagens/img-principal-ovo.png);
     width: 100%;
@@ -10,14 +11,14 @@
 .nome {
     letter-spacing: 3px;
     text-align: center;
-    top: 115px;
+    top: 90px;
     position: relative;
 }
 .funcao {
     font-family: 'Roboto Slab', serif;
     color: white;
     text-align: center;
-    top: 105px;
+    top: 90px;
     position: relative;
 }
 .funcao h2 {
@@ -26,7 +27,7 @@
 .redes-sociais {
     position: relative;
     text-align: center;
-    top: 430px;
+    top: 400px;
     letter-spacing: 10px;
 }
 .fa-user, .fa-twitter, .fa-sms, .fa-envelope-open, .fa-blogger-b, .fa-map-marker-alt, .fa-skype  {
@@ -39,7 +40,20 @@
     top: 20px;
     font-size: 30px;
 }
-/*site-container*/
+.entrar {
+    position: relative;
+    text-align: center;
+    top: 20px;
+    font-size: 30px;
+    color: #fff;
+}
+@media (min-width: 768px) {
+    .redes-sociais {
+        top: 380px;
+        letter-spacing: 10px;
+    }
+}
+/*arquivo-container*/
 /*font family*/
 body {
     font-family: 'Roboto Slab', serif;
