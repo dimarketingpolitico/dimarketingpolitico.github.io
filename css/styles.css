@@ -246,7 +246,7 @@ font-size: 18px;
 }
 .p-3 {
     border-radius: 5px;
-    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    box-shadow: 5px 5px 0px 0px rgba(50, 50, 50, 0.22);
     margin-top: 25px;
     background-color: rgba(138, 121, 86, 0.2);
     padding: 15px;
