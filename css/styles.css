@@ -27,12 +27,13 @@
 .redes-sociais {
     position: relative;
     text-align: center;
-    top: 400px;
+    top: 350px;
     letter-spacing: 10px;
 }
-.fa-user, .fa-twitter, .fa-sms, .fa-envelope-open, .fa-blogger-b, .fa-map-marker-alt, .fa-skype  {
+.fa-user, .fa-twitter, .fa-sms, .fa-envelope-open, .fa-blogger-b, .fa-map-marker-alt, .fa-skype, .fa-linkedin {
     font-size: 24px;
     text-align: center;
+    color: white;
 }
 .porta {
     position: relative;
